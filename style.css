@@ -37,22 +37,8 @@ body {
 h1 {
     animation: bounce 2s infinite;
 }
-
-@keyframes bounce {
+keyframes bounce {
   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
   40% {transform: translateY(-20px);}
   60% {transform: translateY(-10px);}
-}
-.links a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 15px;
-    background-color: #8e44ad;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-}
-.links a:hover {
-    transform: scale(1.1);
 }
